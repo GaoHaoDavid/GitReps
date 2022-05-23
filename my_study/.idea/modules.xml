@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my_study.iml" filepath="$PROJECT_DIR$/my_study.iml" group="my_study" />
+      <module fileurl="file://$PROJECT_DIR$/net_thread/net_thread.iml" filepath="$PROJECT_DIR$/net_thread/net_thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/suan_fa/suan_fa.iml" filepath="$PROJECT_DIR$/suan_fa/suan_fa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>
