@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth_service/auth_service.iml" filepath="$PROJECT_DIR$/auth_service/auth_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/es_service/es_service.iml" filepath="$PROJECT_DIR$/es_service/es_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file_service/file_service.iml" filepath="$PROJECT_DIR$/file_service/file_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my_study.iml" filepath="$PROJECT_DIR$/my_study.iml" group="my_study" />
       <module fileurl="file://$PROJECT_DIR$/net_thread/net_thread.iml" filepath="$PROJECT_DIR$/net_thread/net_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/suan_fa/suan_fa.iml" filepath="$PROJECT_DIR$/suan_fa/suan_fa.iml" />

@@ -2,17 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="net_thread" />
-        <module name="suan_fa" />
-        <module name="my_study" />
+        <module name="auth_service" />
         <module name="test" />
+        <module name="file_service" />
+        <module name="suan_fa" />
+        <module name="es_service" />
+        <module name="my_study" />
+        <module name="net_thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth_service" target="1.8" />
+      <module name="es_service" target="1.8" />
+      <module name="file_service" target="1.8" />
       <module name="my_study" target="1.8" />
       <module name="net_thread" target="1.8" />
       <module name="suan_fa" target="1.8" />
@@ -21,6 +28,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="auth_service" options="-parameters" />
+      <module name="file_service" options="-parameters" />
       <module name="my_study" options="-parameters" />
       <module name="net_thread" options="-parameters" />
       <module name="suan_fa" options="-parameters" />
