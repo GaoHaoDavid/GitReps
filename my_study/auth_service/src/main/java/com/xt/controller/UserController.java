@@ -2,16 +2,12 @@ package com.xt.controller;
 
 import com.xt.entity.ResultInfo;
 import com.xt.entity.User;
-import com.xt.mapper.UserMapper;
-import com.xt.service.UserServiceImpl;
+import com.xt.service.impl.UserServiceImpl;
 import com.xt.utils.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.time.Duration;
 import java.util.HashMap;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
