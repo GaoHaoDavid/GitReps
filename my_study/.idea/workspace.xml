@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a05959-2c7f-40e0-b33a-c04d2eeaa55f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/AbstractHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/HighHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/HighHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/builder/improve/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/prototype/Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/prototype/deepclone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/prototype/deepclone/DeepCloneableTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/com/xt/prototype/deepclone/DeepPrototype.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/design_pattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/design_pattern.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/abstrast/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/abstrast/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/method/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/method/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/method/order/PizzaStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/method/order/PizzaStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/simple/order/OrderPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/simple/order/OrderPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/simple/order/SimpleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/factory/simple/order/SimpleFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/Singleton5.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/Singleton5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/Singleton6.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/Singleton6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/SingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/target/classes/com/xt/single/SingletonTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +97,14 @@
     <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitResp\my_study\auth_service\src\main\java\com\xt" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GitResp\my_study\file_service\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xt.builder.improve" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitResp\my_study\auth_service\src\main\java\com\xt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -90,13 +119,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuthServiceApplication">
-    <configuration name="EsQueryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xt.es_service.es.EsQueryDemo" />
-      <module name="es_service" />
+  <component name="RunManager" selected="Application.Client (2)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xt.prototype.deepclone.Client" />
+      <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xt.es_service.es.*" />
+          <option name="PATTERN" value="com.xt.prototype.deepclone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,33 +133,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EsServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="es_service" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xt.builder.improve.Client" />
+      <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xt.es_service.*" />
+          <option name="PATTERN" value="com.xt.builder.improve.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xt.es_service" />
-      <option name="MAIN_CLASS_NAME" value="com.xt.es_service.EsServiceApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EsServiceApplicationTests.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="es_service" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xt.prototype.Client" />
+      <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xt.es_service.*" />
+          <option name="PATTERN" value="com.xt.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xt.es_service" />
-      <option name="MAIN_CLASS_NAME" value="com.xt.es_service.EsServiceApplicationTests" />
-      <option name="METHOD_NAME" value="createIndex" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,6 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DesignModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="design_pattern" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xt.DesignModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="es_service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xt.es_service.EsServiceApplication" />
@@ -211,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.EsServiceApplicationTests.save" />
         <item itemvalue="JUnit.EsServiceApplicationTests.deleteIndex" />
-        <item itemvalue="JUnit.EsServiceApplicationTests.createIndex" />
-        <item itemvalue="JUnit.EsServiceApplicationTests" />
-        <item itemvalue="Application.EsQueryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +273,8 @@
       <workItem from="1655609619285" duration="11528000" />
       <workItem from="1656209276629" duration="5792000" />
       <workItem from="1657629609377" duration="645000" />
-      <workItem from="1658565377366" duration="587000" />
+      <workItem from="1658565377366" duration="1610000" />
+      <workItem from="1658643962867" duration="8227000" />
     </task>
     <task id="LOCAL-00001" summary="新增文件上传服务">
       <created>1655042709181</created>
